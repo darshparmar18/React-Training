@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        text-align: center;
+        padding: 50px;
+      }
+      .profile {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 300px;
+        margin: auto;
+      }
+      img {
+        border-radius: 50%;
+        width: 120px;
+        margin-bottom: 15px;
+      }
+      button {
+        padding: 10px 15px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img src="profile.jpg" alt="My Photo">
+      <h1 id="name">Darsh Parmar</h1>
+      <p>Web Developer | Learner</p>
+      <button id="btn">Say Hello</button>
+    </div>
+
+    <script>
+      document.getElementById("btn").addEventListener("click", () => {
+        const name = document.getElementById("name").innerText;
+        alert(`Hello, my name is ${name}!`);
+      });
+    </script>
+  </body>
+</html>
