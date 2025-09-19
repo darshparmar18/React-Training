@@ -1,0 +1,44 @@
+/* src/UserCard.module.css */
+.card {
+  border: 1px solid #e2e8f0;
+  margin-bottom: 1.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.name {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.info {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.description {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.button {
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

@@ -17,7 +17,7 @@ function ProfileCard({ name, role, age, description }) {
       {showDescription && <p className="mt-3 text-gray-600">{description}</p>}
 
       <button
-        className="mt-5 px-4 py-2 bg-gray-600 text-red rounded-lg shadow hover:bg-gray-700 transition"
+        className="mt-5 px-4 py-2 bg-gray-600 rounded-lg shadow hover:bg-gray-700 transition"
         onClick={() => setShowDescription(!showDescription)}
       >
         {showDescription ? "Hide Info" : "Show Info"}

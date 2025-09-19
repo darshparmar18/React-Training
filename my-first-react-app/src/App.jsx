@@ -1,5 +1,6 @@
 import React from "react";
 import ProfileCard from "./ProfileCard";
+import "./App.css";
 
 function App() {
   return (
@@ -9,9 +10,6 @@ function App() {
         <h1 className="text-5xl font-extrabold text-gray-900">
           Props, State & Events
         </h1>
-        <p className="mt-3 text-lg text-gray-700">
-          Learn React with interactive examples 🚀
-        </p>
       </div>
 
       {/* Cards Section */}
